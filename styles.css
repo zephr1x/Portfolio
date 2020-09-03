@@ -9,16 +9,16 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: white;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: rgb(199, 199, 199);
 }
 a:hover {
-  color: #6633ff;
+  color: turquoise;
 }
 
 /* Section Styles */
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: whitesmoke;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,12 +52,22 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: turquoise;
 }
-
+.experience {
+  color: turquoise;
+}
+.xppage {
+  text-align: center;
+  background: black;
+  background-size: 200px;
+  overflow: hidden;
+  padding-top: 60px;
+ 
+}
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: black;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,55 +79,55 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 60%;
+  border: none;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(0deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: none;
+  color: turquoise;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: none;
+  color:  whitesmoke;
 }
 .card {
-  margin: 30px;
+  margin: 20px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 400px;
   text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
+  background: rgb(248, 248, 248);
+  border-bottom: 4px solid turquoise;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: darkblue;
 }
 
 ul.skills {
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .skills li {
-  border-radius: 6px;
+  border-radius: 2px;
   display: inline-block;
-  background: #ff9904;
+  background: turquoise;
   color: white;
-  padding: 5px 10px;
+  padding: 2px 15px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: turquoise;
 }
 
 footer {
@@ -154,9 +164,7 @@ a.social {
 a.twitter {
   background-image: url(images/twitter.svg);
 }
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
   background-image: url(images/github.svg);
 }
@@ -205,3 +213,32 @@ a.social:hover {
 
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+figcaption {
+    text-align: center;
+    width:100%;
+}
+
+.lorem {
+  margin: 20px;
+  
+  padding: 20px 40px 40px;
+  max-width: 700px;
+  text-align: center;
+  background: rgb(248, 248, 248);
+  
+  border-radius: 6px;
+  transition: all .5s;
+}
+.gallery-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+  
+  
+}
